@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">DicodingAndroidSubmission</string>
+    <string name="book_list">Daftar Buku</string>
+    <string name="book_detail">Detail Buku</string>
+    <string name="title">Judul Buku</string>
+    <string name="author">Nama Penulis</string>
+    <string name="description">Deskripsi Buku</string>
+    <string-array name="data_title">
+        <item>When the Moon Hatched</item>
+        <item>Restless Stars</item>
+        <item>Intermezzo</item>
+        <item>Here One Moment</item>
+        <item>The Ministry of Time</item>
+        <item>Five Broken Blades</item>
+        <item>First Lie Wins</item>
+        <item>The Teacher</item>
+        <item>Nuclear War: A Scenario</item>
+        <item>The Black Bird Oracle</item>
+    </string-array>
+    <string-array name="data_author">
+        <item>Sarah A. Parker</item>
+        <item>Caroline Peckham, Susanne Valenti</item>
+        <item>Sally Rooney</item>
+        <item>Liane Moriarty</item>
+        <item>Kaliane Bradley</item>
+        <item>Mai Corland</item>x
+        <item>Ashley Elston</item>
+        <item>Freida McFadden</item>
+        <item>Annie Jacobsen</item>
+        <item>Deborah Harkness</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>
+            \'An absolutely stunning fantasy world’ Raven Kennedy, author of international bestseller, The Plated Prisoner Series
+            ‘A wild ride that thrills as much as it enchants … An instant classic’ Thea Guanzon, Sunday Times bestselling author of The Hurricane Wars
+            He\'s fire and brimstone.
+            I\'m shattered ice …
+            I\'ll gladly burn beneath him until the world comes crumbling down.
+            As an assassin for the rebellion, Raeve’s job is to complete orders and never get caught. When a rival bounty hunter shatters her world, Raeve finds herself captured by the Guild of Nobles – a group of powerful fae.
+            Crushed by the loss of his great love, dragon rider Kaan Vaegor took the head of a king and donned his melted crown. Now on a tireless quest to quell the never-ebbing ache in his chest, a clue lures him into the capital’s high-security prison where he stumbles upon the imprisoned Raeve …
+            Together, they seek truths that threaten to unravel everything they knew about their world – and each other.
+            Bestselling sensation When the Moon Hatched will transport you into a world filled with magic, dragons and a love that blazes through the ages…
+        </item>
+        <item>
+            We are all and nothing now, our fate weighed on the scales of the stars and counterbalanced by the forces that oppose us. The shadow of the false king spreads as thick as oil across the kingdom we were born to rule, and none remain untouched by its darkness. Our crowns lay within reach if only we can claim them. All souls are at risk now and when the final battle dawns, a new regime will rise. The time for the true reckoning is upon us and we have proven ourselves as savage as our father, as brutal as our mother, and as wild as the Elements which roar through our veins. We can only hope it is enough. When the last sword strikes the final death in this game of fate and fortune, only one side will be victorious. The Starfall Legion charges at first light. And our destiny rides upon our shoulders as we rush into the end. All hail the True Queens. May our rule last longer than this night.
+            ***This is a dark fantasy romance – don’t go expecting a sweet school for magic with friends around every corner. Fae fight for everything they own and Zodiac Academy is a cutthroat school for students aged 18+ where only the strongest prevail. There’s no Dumbledore here to save anyone’s ass and Lionel Acrux will give Voldemort a run for his money in the evil dictator category. So hold onto your stardust (broomsticks not required) and get ready for a bumpy ride***
+        </item>
+        <item>
+            Aside from the fact that they are brothers, Peter and Ivan Koubek seem to have little in common.
+            Peter is a Dublin lawyer in his thirties—successful, competent, and apparently unassailable. But in the wake of their father’s death, he’s medicating himself to sleep and struggling to manage his relationships with two very different women—his enduring first love, Sylvia, and Naomi, a college student for whom life is one long joke.
+            Ivan is a twenty-two-year-old competitive chess player. He has always seen himself as socially awkward, a loner, the antithesis of his glib elder brother. Now, in the early weeks of his bereavement, Ivan meets Margaret, an older woman emerging from her own turbulent past, and their lives become rapidly and intensely intertwined.
+            For two grieving brothers and the people they love, this is a new interlude—a period of desire, despair, and possibility; a chance to find out how much one life might hold inside itself without breaking.
+        </item>
+        <item>
+            Aside from a delay, there will be no problems. The flight will be smooth, it will land safely. Everyone who gets on the plane will get off. But almost all of them will be forever changed.
+            Because on this ordinary, short, domestic flight, something extraordinary happens. People learn how and when they are going to die. For some, their death is far in the future—age 103!—and they laugh. But for six passengers, their predicted deaths are not far away at all.
+            How do they know this? There were ostensibly more interesting people on the flight (the bride and groom, the jittery, possibly famous woman, the giant Hemsworth-esque guy who looks like an off-duty superhero, the frazzled, gorgeous flight attendant) but none would become as famous as “The Death Lady.”
+            Not a single passenger or crew member will later recall noticing her board the plane. She wasn’t exceptionally old or young, rude or polite. She wasn’t drunk or nervous or pregnant. Her appearance and demeanor were unremarkable. But what she did on that flight was truly remarkable.
+            A few months later, one passenger dies exactly as she predicted. Then two more passengers die, again, as she said they would. Soon no one is thinking this is simply an entertaining story at a cocktail party.
+            If you were told you only had a certain amount of time left to live, would you do things differently? Would you try to dodge your destiny?
+            Liane Moriarty’s Here One Moment is a brilliantly constructed tale that looks at free will and destiny, grief and love, and the endless struggle to maintain certainty and control in an uncertain world. A modern-day Jane Austen who humorously skewers social mores while spinning a web of mystery, Moriarty asks profound questions in her newest I-can’t-wait-to-find-out-what-happens novel.
+        </item>
+        <item>
+            In the near future, a civil servant is offered the salary of her dreams and is, shortly afterward, told what project she’ll be working on. A recently established government ministry is gathering “expats” from across history to establish whether time travel is feasible—for the body, but also for the fabric of space-time.
+            She is tasked with working as a “bridge”: living with, assisting, and monitoring the expat known as “1847” or Commander Graham Gore. As far as history is concerned, Commander Gore died on Sir John Franklin’s doomed 1845 expedition to the Arctic, so he’s a little disoriented to be living with an unmarried woman who regularly shows her calves, surrounded by outlandish concepts such as “washing machines,” “Spotify,” and “the collapse of the British Empire.” But with an appetite for discovery, a seven-a-day cigarette habit, and the support of a charming and chaotic cast of fellow expats, he soon adjusts.
+            Over the next year, what the bridge initially thought would be, at best, a horrifically uncomfortable roommate dynamic, evolves into something much deeper. By the time the true shape of the Ministry’s project comes to light, the bridge has fallen haphazardly, fervently in love, with consequences she never could have imagined. Forced to confront the choices that brought them together, the bridge must finally reckon with how—and whether she believes—what she does next can change the future.
+        </item>
+        <item>
+            The king of Yusan must die.
+            The five most dangerous liars in the land have been mysteriously summoned to work together for a single objective: to kill the God King Joon.
+            He has it coming. Under his merciless immortal hand, the nobles flourish, while the poor and innocent are imprisoned, ruined…or sold.
+            And now each of the five blades will come for him. Each has tasted bitterness―from the hired hitman seeking atonement, a lovely assassin who seeks freedom, or even the prince banished for his cruel crimes. None can resist the sweet, icy lure of vengeance.
+            They can agree on murder.
+            They can agree on treachery.
+            But for these five killers―each versed in deception, lies, and betrayal―it’s not enough to forge an alliance. To survive, they’ll have to find a way to trust each other…but only one can take the crown.
+            Let the best liar win.
+        </item>
+        <item>
+            The identity comes first: Evie Porter. Once she’s given a name and location by her mysterious boss Mr. Smith, she learns everything there is to know about the town and the people in it. Then the mark: Ryan Sumner. The last piece of the puzzle is the job.
+            Evie isn\'t privy to Mr. Smith’s real identity, but she knows this job will be different. Ryan has gotten under her skin, and she’s starting to envision a different sort of life for herself. But Evie can\’t make any mistakes—especially after what happened last time.
+            Because the one thing she’s worked her entire life to keep clean, the one identity she could always go back to her real identity just walked right into this town. Evie Porter must stay one step ahead of her past while making sure there\’s still a future in front of her. The stakes couldn\'t be higher but then, Evie has always liked a challenge…
+        </item>
+        <item>
+            Lesson #1: Trust no one.
+            Eve has a good life. She wakes up each day, kisses her husband Nate, and heads off to teach math at the local high school. All is as it should be. Except…
+            Last year, Caseham High was rocked by a scandal involving a student-teacher affair, with one student, Addie, at its center. But Eve knows there is far more to these ugly rumors than meets the eye.
+            Addie can’t be trusted. She lies. She hurts people. She destroys lives. At least, that’s what everyone says.
+            But nobody knows the real Addie. Nobody knows the secrets that could destroy her. And Addie will do anything to keep it quiet…
+        </item>
+        <item>
+            There is only one scenario other than an asteroid strike that could end the world as we know it in a matter of hours: nuclear war. And one of the triggers for that war would be a nuclear missile inbound toward the United States.
+            Every generation, a journalist has looked deep into the heart of the nuclear military establishment: the technologies, the safeguards, the plans, and the risks. These investigations are vital to how we understand the world we really live in—where one nuclear missile will beget one in return, and where the choreography of the world’s end requires massive decisions made on seconds’ notice with information that is only as good as the intelligence we have.
+            Pulitzer Prize finalist Annie Jacobsen’s Nuclear War: A Scenario explores this ticking-clock scenario, based on dozens of exclusive new interviews with military and civilian experts who have built the weapons, have been privy to the response plans, and have been responsible for those decisions should they have needed to be made. Nuclear War: A Scenario examines the handful of minutes after a nuclear missile launch. It is essential reading, and unlike any other book in its depth and urgency.
+        </item>
+        <item>
+            Deborah Harkness first introduced the world to Diana Bishop, Oxford scholar and witch, and vampire geneticist Matthew de Clairmont in A Discovery of Witches. Drawn to each other despite long-standing taboos, these two otherworldly beings found themselves at the center of a battle for a lost, enchanted manuscript known as Ashmole 782. Since then, they have fallen in love, traveled to Elizabethan England, dissolved the Covenant between the three species, and awoken the dark powers within Diana’s family line.
+            Now, Diana and Matthew receive a formal demand from the Congregation: They must test the magic of their seven-year-old twins, Pip and Rebecca. Concerned with their safety and desperate to avoid the same fate that led her parents to spellbind her, Diana decides to forge a different path for her family’s future and answers a message from a great-aunt she never knew existed, Gwyneth Proctor, whose invitation simply reads: It’s time you came home, Diana.
+            On the hallowed ground of Ravenswood, the Proctor family home, and under the tutelage of Gwyneth, a talented witch grounded in higher magic, a new era begins for Diana: a confrontation with her family’s dark past, and a reckoning for her own desire for even greater power—if she can let go, finally, of her fear of wielding it.
+        </item>
+    </string-array>
+    <string-array name="data_cover_image">
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712153006i/210714656.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1713983144i/211000011.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716387455i/208931300.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1721670560i/208516656.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1716480921i/199798179.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712003696i/201608152.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1704216161i/164444179.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1693401496i/195967140.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1698060837i/182733784.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1702589361i/203518955.jpg</item>
+    </string-array>
+    <string name="source">Sumber:</string>
+    <string name="source_url">goodreads.com</string>
+    <string name="user_photo">https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/small/avatar/dos-705d4007177fa4db7cd7981817a748ea20241114113506.png</string>
+    <string name="user_name">Muhamad Rizki</string>
+    <string name="user_email">mhmdrizki.dev@gmail.com</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="github">Github</string>
+</resources>
