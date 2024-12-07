@@ -19,6 +19,8 @@ class ListBookAdapter(private val listBook: ArrayList<Book>) : RecyclerView.Adap
         val imgCover: ImageView = itemView.findViewById(R.id.img_item_cover)
         val tvTitle: TextView = itemView.findViewById(R.id.tv_item_title)
         val tvAuthor: TextView = itemView.findViewById(R.id.tv_item_description)
+        val tvStar: TextView = itemView.findViewById(R.id.tv_star)
+        val tvReviewer: TextView = itemView.findViewById(R.id.tv_reviewer)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -29,10 +31,12 @@ class ListBookAdapter(private val listBook: ArrayList<Book>) : RecyclerView.Adap
     override fun getItemCount(): Int = listBook.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, author, description, cover) = listBook[position]
-        Glide.with(holder.itemView.context).load(cover).into(holder.imgCover) // URL Gambar.into(holder.imgPhoto) // imageView mana yang akan diterapkan
+        val (name, author, description, cover, star, rating, reviewer, genre) = listBook[position]
+        Glide.with(holder.itemView.context).load(cover).into(holder.imgCover)
         holder.tvTitle.text = name
         holder.tvAuthor.text = author
+        holder.tvStar.text = star
+        holder.tvReviewer.text = reviewer
 
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listBook[holder.adapterPosition]) }
     }
