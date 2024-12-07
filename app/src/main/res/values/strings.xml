@@ -4,7 +4,11 @@
     <string name="book_detail">Detail Buku</string>
     <string name="title">Judul Buku</string>
     <string name="author">Nama Penulis</string>
+    <string name="star">Jumlah Bintang</string>
+    <string name="rating">Jumlah Rating</string>
+    <string name="reviewer">Jumlah Reviewer</string>
     <string name="description">Deskripsi Buku</string>
+    <string name="genre">Genre Buku</string>
     <string-array name="data_title">
         <item>When the Moon Hatched</item>
         <item>Restless Stars</item>
@@ -28,6 +32,45 @@
         <item>Freida McFadden</item>
         <item>Annie Jacobsen</item>
         <item>Deborah Harkness</item>
+    </string-array>
+    <string name="star_label">Stars</string>
+    <string-array name="data_star">
+        <item>4.08</item>
+        <item>4.29</item>
+        <item>4.05</item>
+        <item>4.09</item>
+        <item>3.61</item>
+        <item>3.83</item>
+        <item>4.02</item>
+        <item>3.92</item>
+        <item>4.44</item>
+        <item>4.12</item>
+    </string-array>
+    <string name="rating_label">Ratings</string>
+    <string-array name="data_rating">
+        <item>(129,749)</item>
+        <item>(36,313)</item>
+        <item>(72,781)</item>
+        <item>(74,420)</item>
+        <item>(75,481)</item>
+        <item>(22,603)</item>
+        <item>(507,563)</item>
+        <item>(577,500)</item>
+        <item>(20,295)</item>
+        <item>(22,379)</item>
+    </string-array>
+    <string name="reviewer_label">Reviewers</string>
+    <string-array name="data_reviewer">
+        <item>20,616</item>
+        <item>4,402</item>
+        <item>14,770</item>
+        <item>9,134</item>
+        <item>14,202</item>
+        <item>5,288</item>
+        <item>47,682</item>
+        <item>58,441</item>
+        <item>3,706</item>
+        <item>2,367</item>
     </string-array>
     <string-array name="data_description">
         <item>
@@ -97,6 +140,18 @@
             Now, Diana and Matthew receive a formal demand from the Congregation: They must test the magic of their seven-year-old twins, Pip and Rebecca. Concerned with their safety and desperate to avoid the same fate that led her parents to spellbind her, Diana decides to forge a different path for her family’s future and answers a message from a great-aunt she never knew existed, Gwyneth Proctor, whose invitation simply reads: It’s time you came home, Diana.
             On the hallowed ground of Ravenswood, the Proctor family home, and under the tutelage of Gwyneth, a talented witch grounded in higher magic, a new era begins for Diana: a confrontation with her family’s dark past, and a reckoning for her own desire for even greater power—if she can let go, finally, of her fear of wielding it.
         </item>
+    </string-array>
+    <string-array name="data_genre">
+        <item>Fantasy, Romantasy, Romance, Dragons, Fantasy, Romance, Fae, Fiction</item>
+        <item>Fantasy, Romantasy, Romance, Fae, Fantasy, Romance, Vampires, Paranormal</item>
+        <item>Fiction, Contemporary, Literary, Fiction, Romance, Ireland, Audiobook, Adult</item>
+        <item>Fiction, Mystery, Audiobook, Contemporary, Thriller, Mystery, Thriller, Adult</item>
+        <item>Science Fiction, Fiction, Romance, Time Travel, Fantasy, Historical, Fiction, Audiobook</item>
+        <item>Fantasy, Romance, Fiction, Audiobook, Romantasy, Adult, Fantasy Romance</item>
+        <item>Thriller, Mystery, Audiobook, Fiction, Mystery, Thriller, Suspense, Adult</item>
+        <item>Thriller, Audiobook, Mystery, Mystery, Thriller, Fiction, Suspense, Psychological Thriller</item>
+        <item>Nonfiction, History, Politics, Science, War, Audiobook, Horror</item>
+        <item>Fantasy, Fiction, Witches, Paranormal, Vampires, Magic, Audiobook</item>
     </string-array>
     <string-array name="data_cover_image">
         <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1712153006i/210714656.jpg</item>
