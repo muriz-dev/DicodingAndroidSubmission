@@ -7,38 +7,85 @@
     android:layout_height="match_parent"
     tools:context=".BookDetail">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:padding="8dp">
+
         <ImageView
             android:id="@+id/img_cover"
-            android:layout_gravity="center"
             android:layout_width="140dp"
             android:layout_height="200dp"
+            android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tv_title"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
             android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/title"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:text="@string/title" />
+            app:layout_constraintEnd_toEndOf="@+id/img_cover"
+            app:layout_constraintStart_toStartOf="@+id/img_cover"
+            app:layout_constraintTop_toBottomOf="@+id/img_cover" />
 
         <TextView
             android:id="@+id/tv_author"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="4dp"
+            android:text="@string/author"
             android:textSize="12sp"
-            android:text="@string/author"/>
+            app:layout_constraintEnd_toEndOf="@+id/tv_title"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_author">
+
+            <TextView
+                android:id="@+id/tv_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/star"
+                app:drawableStartCompat="@drawable/star_24dp"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/star_label" />
+
+            <TextView
+                android:id="@+id/tv_reviewer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/reviewer"
+                app:drawableStartCompat="@drawable/person_24dp"
+                android:gravity="center_vertical"
+                android:drawablePadding="4dp" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/tv_description"
@@ -46,26 +93,39 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:padding="8dp"
+            android:text="@string/description"
             android:textSize="16sp"
-            android:text="@string/description"/>
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:layout_editor_absoluteX="8dp" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/tv_genre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/genre"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/tv_description"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:padding="8dp">
+            android:text="@string/source"
+            app:layout_constraintStart_toStartOf="@+id/tv_description"
+            app:layout_constraintTop_toBottomOf="@+id/tv_genre" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:text="@string/source"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/source_url"/>
-        </LinearLayout>
-
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/source_url"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
