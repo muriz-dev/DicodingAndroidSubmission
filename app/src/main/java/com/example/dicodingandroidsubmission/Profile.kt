@@ -15,8 +15,9 @@ import com.bumptech.glide.Glide
 
 class Profile : AppCompatActivity(), View.OnClickListener {
     private lateinit var userPhoto: ImageView
-    private lateinit var btnGithub: Button
     private lateinit var btnLinkedin: Button
+    private lateinit var btnGithub: Button
+    private lateinit var btnSourceCode: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,11 +30,13 @@ class Profile : AppCompatActivity(), View.OnClickListener {
         }
 
         userPhoto = findViewById(R.id.img_user_photo)
-        btnGithub = findViewById(R.id.btn_github)
         btnLinkedin = findViewById(R.id.btn_linkedin)
+        btnGithub = findViewById(R.id.btn_github)
+        btnSourceCode = findViewById(R.id.btn_source_code)
 
         btnGithub.setOnClickListener(this)
         btnLinkedin.setOnClickListener(this)
+        btnSourceCode.setOnClickListener(this)
 
         Glide.with(this).load(getString(R.string.user_photo)).into(userPhoto)
     }
@@ -44,13 +47,18 @@ class Profile : AppCompatActivity(), View.OnClickListener {
         intent.addCategory(Intent.CATEGORY_BROWSABLE)
 
         when(v?.id) {
+            R.id.btn_linkedin -> {
+                intent.setData(Uri.parse("https://www.linkedin.com/in/muhamadrizki-dev/"))
+                startActivity(intent)
+            }
+
             R.id.btn_github -> {
                 intent.setData(Uri.parse("https://github.com/muriz-dev"))
                 startActivity(intent)
             }
 
-            R.id.btn_linkedin -> {
-                intent.setData(Uri.parse("https://www.linkedin.com/in/muhamadrizki-dev/"))
+            R.id.btn_source_code -> {
+                intent.setData(Uri.parse("https://github.com/muriz-dev/DicodingAndroidSubmission"))
                 startActivity(intent)
             }
         }
