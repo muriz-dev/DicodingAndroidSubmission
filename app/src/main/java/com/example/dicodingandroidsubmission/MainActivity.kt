@@ -8,7 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
@@ -53,10 +53,14 @@ class MainActivity : AppCompatActivity() {
         val dataAuthor = resources.getStringArray(R.array.data_author)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataCover = resources.getStringArray(R.array.data_cover_image)
+        val dataStar = resources.getStringArray(R.array.data_star)
+        val dataRating = resources.getStringArray(R.array.data_rating)
+        val dataReviewer = resources.getStringArray(R.array.data_reviewer)
+        val dataGenre = resources.getStringArray(R.array.data_genre)
         val listBook = ArrayList<Book>()
 
         for (i in dataTitle.indices){
-            val book = Book(dataTitle[i], dataAuthor[i], dataDescription[i], dataCover[i])
+            val book = Book(dataTitle[i], dataAuthor[i], dataDescription[i], dataCover[i], dataStar[i], dataRating[i], dataReviewer[i], dataGenre[i])
             listBook.add(book)
         }
 
@@ -64,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showRecyclerList() {
-        rvBooks.layoutManager = LinearLayoutManager(this)
+        rvBooks.layoutManager = GridLayoutManager(this, 2)
         val listBookAdapter = ListBookAdapter(list)
         rvBooks.adapter = listBookAdapter
 
