@@ -28,7 +28,11 @@ class BookDetail : AppCompatActivity() {
         val imgCover: ImageView = findViewById(R.id.img_cover)
         val tvTitle: TextView = findViewById(R.id.tv_title)
         val tvAuthor: TextView = findViewById(R.id.tv_author)
+        val tvStar: TextView = findViewById(R.id.tv_star)
+        val tvRating: TextView = findViewById(R.id.tv_rating)
+        val tvReviewer: TextView = findViewById(R.id.tv_reviewer)
         val tvDescription: TextView = findViewById(R.id.tv_description)
+        val tvGenre: TextView = findViewById(R.id.tv_genre)
 
         val book = if (Build.VERSION.SDK_INT >= 33){
             intent.getParcelableExtra<Book>(EXTRA_BOOK, Book::class.java)
@@ -40,6 +44,10 @@ class BookDetail : AppCompatActivity() {
         Glide.with(this).load(book?.cover).into(imgCover)
         tvTitle.text = book?.title.toString()
         tvAuthor.text = book?.author.toString()
+        tvStar.text = book?.star.toString()
+        tvRating.text = book?.rating.toString()
+        tvReviewer.text = book?.reviewer.toString()
         tvDescription.text = book?.description.toString()
+        tvGenre.text = book?.genre.toString()
     }
 }
