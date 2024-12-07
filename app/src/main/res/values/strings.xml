@@ -167,6 +167,7 @@
     </string-array>
     <string name="source">Sumber:</string>
     <string name="source_url">goodreads.com</string>
+    <string name="share">Recommend This Book</string>
     <string name="user_photo">https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/small/avatar/dos-705d4007177fa4db7cd7981817a748ea20241114113506.png</string>
     <string name="user_name">Muhamad Rizki</string>
     <string name="user_email">mhmdrizki.dev@gmail.com</string>
